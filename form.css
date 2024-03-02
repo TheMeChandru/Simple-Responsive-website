@@ -1,0 +1,95 @@
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.form-con1 input{
+    font-size: 15px;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 100%;
+    display: block;
+    transition: all 0.2s;
+    
+}
+
+.form-con1 input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,0.1);
+    border-bottom: 3px solid #cea135;
+}
+
+.center-button{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-con1 textarea{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid black;
+    font-size: 15px;
+    font-family: inherit;
+    color: color(srgb red green blue);
+    padding: 1.5rem 2rem;
+    transition: all0.3s;
+}
+
+#buttons{
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid #cea135;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+#buttons:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.form-con1 label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-right: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form-con1 textarea:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,0.1);
+    border: 3px solid #cea135;
+}
+ .form-con1 input::-webkit-input-placeholder,.form-con1 textarea::-webkit-input-placeholder{
+    color: #11122b;
+ }
+ .form-con1 input:focus::-webkit-input-placeholder,.form-con1 textarea:focus::-webkit-input-placeholder{
+    color:transparent;
+ }
+
+ .form-con1 input:focus + label,.form-con1 textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translatey(1rem);
+ }
+
+ 
+
+
+

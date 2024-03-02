@@ -1,0 +1,111 @@
+@media(max-width:615px){
+    .navbar{
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+.nav-call{
+    order: 2;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+
+}
+
+.ops-section{
+    order: 1;
+    width: 100%;
+}
+
+.address-sec{
+    order: 3;
+    margin-top: 10px;
+
+}
+.head-options{
+    order: 1;
+    width: 100%;
+    padding-bottom:20px;
+    
+}
+.options{
+    flex-direction: column;
+    font-size: 1.2em;
+    width: 100%;
+}
+.home-sec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-sec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.menu-sec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact-sec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-section{
+    padding: 50px 10px;
+}
+
+.features-section{
+    height: 100%;
+}
+
+.column-section{
+    width: 100%;
+    flex-direction: column;
+}
+.footer-panel{
+    height: 100%;
+
+}
+.header-content{
+    flex-direction: column;
+
+}
+
+.about-bg{
+    background-size: 500px;
+}
+
+.page-container{
+    padding-left:21px;
+    padding-right:21px ;
+    
+}
+#chf{
+    margin: 0px 0px 25px 0px !important;
+    width: 100% !important;
+
+}
+.square{
+    grid-template-columns: 1fr !important;
+}
+.square-text{
+    order: 1;
+}
+
+.square-image{
+    order: 2;
+}
+.contact-form{
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.form-con1 input{
+    padding: 1.5rem 0rem;
+}
+.form-con1 textarea{
+    padding:1.5rem 0rem;
+}
+
+}

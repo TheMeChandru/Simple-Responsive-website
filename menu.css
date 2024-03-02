@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* About header */
+
+.about-header{
+    height: 400px;
+    position:relative;
+    overflow: hidden;
+}
+
+.about-bg{
+    background-image: url("about-us.jpg");
+    background-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform:skewy(-4deg);
+    transform-origin:top left;
+    filter: brightness(50%);
+}
+
+.anchor-links{
+    text-decoration: none;
+}
+.anchor-links:focus{
+    outline: none;
+}
+
+.anchor-links h1::after{
+    font-family:"Font Awesome 5 Free";
+    content: "\f0c1";
+    font-weight:900;
+
+}
